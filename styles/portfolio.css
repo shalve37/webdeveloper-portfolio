@@ -79,14 +79,15 @@ nav a {
     background-position: bottom right, top left;
 }
 
-.banner {
-    padding: 10px 30px 50px 150px;
+.banner{
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.profile-picture {
-    max-width: 580px;
-    max-height: 600px;
+.banner .profile-picture {
+    width: 580px;
 }
 
 .banner-greeting {
