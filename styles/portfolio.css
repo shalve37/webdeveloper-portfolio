@@ -2,6 +2,7 @@
 body {
 
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }   
 
 .text-primary {
@@ -80,7 +81,8 @@ nav a {
 }
 
 .banner{
-    padding: 30px 30px 0px 150px;
+    margin: 0;
+    padding: 0px 0px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -92,18 +94,24 @@ nav a {
 
 .banner-greeting {
     color: #474747;
-    font-size: 45px;
-    font-weight: 400;
-    margin-bottom: 0px;
-
+    font-size:45px;
+    font-weight: 600;
+    margin:0px;
 }
 
 .banner-title {
-
+    margin-top: 5px;
+    margin-bottom: 0px;
     font-size: 85px;
-    font-weight: 700px;
+    font-weight: 700p;
 }
-
+.banner-description{
+    color: #757575;
+    width: 585px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* main section styles */
 main {
     max-width: 1140px;
